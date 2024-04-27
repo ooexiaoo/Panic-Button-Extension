@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  background: radial-gradient(circle, rgb(255, 100, 100), rgb(255, 110, 243));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  min-height: 80vh;
+  position: relative;
+  color: #fff;
+}
+
+label{
+    font-size: 1rem;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#optionsForm{
+        display: flex;
+        flex-direction: column;
+    }
+
+#safeWebsiteInput{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+}
+
+button{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:#fff;
+    color: black;
+}
+
+#confirmationMessage{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+    color: greenyellow;
+}
